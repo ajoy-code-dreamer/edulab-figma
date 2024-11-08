@@ -21,6 +21,7 @@
   --primary-bg-clr: #121212;
   --secondary-bg-clr: #191919;
   --transparent-clr: transparent;
+  --common-btn-clr: #fdb400;
   /* === colors === */
   /* === method === */
   --transition: all 0.3s linear;
@@ -61,6 +62,7 @@ div {
 }
 img {
   vertical-align: middle;
+  width: 100%;
 }
 .container {
   max-width: 1170px;
@@ -69,13 +71,37 @@ img {
 body {
   font-family: var(--dmSans-font);
 }
+.common_btn {
+  padding: 13px 31px;
+  color: var(--white-clr);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+  border: 1px solid var(--white-clr);
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.common_btn:hover {
+  background-color: var(--common-btn-clr);
+  border-color: var(--common-btn-clr);
+}
 /* ============= common css end here ================ */
 
 /* ============ navbar css start here ============== */
 nav {
   width: 100%;
   padding: 41px 0;
-  background-color: #3c50e0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .nav_wrapper {
   display: flex;
@@ -103,18 +129,102 @@ nav {
   line-height: normal;
 }
 .nav_btn {
-  padding: 13px 31px;
-  color: var(--white-clr);
-  font-size: 16px;
-  font-weight: bold;
-  line-height: normal;
-  border: 1px solid var(--white-clr);
-  border-radius: 24px;
-  -webkit-border-radius: 24px;
-  -moz-border-radius: 24px;
-  -ms-border-radius: 24px;
-  -o-border-radius: 24px;
   margin-left: 44px;
 }
-
 /* ============ navbar css end here ============== */
+
+/* ============= section start here ============== */
+#banner {
+  background: url(../images/banner_bg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 184px 0 241px 0;
+}
+.banner_section_wrapper {
+  display: flex;
+}
+.banner_heading {
+  max-width: 548px;
+  color: var(--white-clr);
+  font-size: 72px;
+  font-weight: var(--bold-weight);
+  line-height: 80px;
+  padding-bottom: 24px;
+  margin-top: 50px;
+}
+.banner_sub_heading {
+  max-width: 414px;
+  color: var(--white-clr);
+  font-size: 20px;
+  font-weight: var(--regular-weight);
+  line-height: 32px; 
+  padding-bottom: 36px;
+}
+.banner_btn_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 28px;
+}
+.banner_btn{
+  padding: 17px 34px;
+  border-radius: 29px;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  -ms-border-radius: 29px;
+  -o-border-radius: 29px;
+}
+.banner_images_part_wrapper{
+  position: relative;
+}
+.banner_img_1{
+  max-width: 539px;
+  max-height: 359px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.banner_img_2{
+  max-width: 306px;
+  max-height: 315px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  position: absolute;
+  top: 298px;
+  right: -100px;
+}
+/* ============= section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
