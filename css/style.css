@@ -453,46 +453,45 @@ nav {
   object-fit: cover;
   object-position: center;
 }
-.career_image_part picture{
+.career_image_part picture {
   position: relative;
   top: 30px;
   right: 30px;
-  
 }
-.career_image_part picture img{
+.career_image_part picture img {
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
   -ms-border-radius: 18px;
   -o-border-radius: 18px;
 }
-.career_details_wrapper .common_section_heading{
+.career_details_wrapper .common_section_heading {
   max-width: 572px;
   margin-bottom: 24px;
 }
-.career_details_wrapper .common_section_sub_heading{
+.career_details_wrapper .common_section_sub_heading {
   max-width: 482px;
   margin-bottom: 24px;
   margin-bottom: 59px;
 }
-.career_details_item_wrapper{
+.career_details_item_wrapper {
   display: flex;
   flex-direction: column;
   gap: 31px;
   margin-bottom: 55px;
 }
-.career_details_item{
+.career_details_item {
   display: flex;
   gap: 22px;
 }
-.career_item_heading{
+.career_item_heading {
   margin-bottom: 21px;
 }
-.career_item_details{
+.career_item_details {
   width: 340px;
 }
-.career_btn{
-  background-color: #3C50E0;
+.career_btn {
+  background-color: #3c50e0;
   width: 20px 47px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -502,8 +501,50 @@ nav {
 }
 /* ============= career section end here ============== */
 
-/* ============= section start here ============== */
-/* ============= section end here ============== */
+/* ============= category section start here ============== */
+#category {
+  margin: 80px 0;
+  background: url(../images/category_bg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 125px 0 120px;
+}
+.category_content_wrapper {
+  text-align: center;
+}
+.category_heading {
+  color: var(--white-clr);
+  font-size: 56px;
+  font-weight: var(--bold-weight);
+  line-height: 64px;
+  margin-bottom: 30px;
+}
+.category_details {
+  max-width: 596px;
+  margin: 0 auto;
+  color: var(--white-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: 32px;
+  margin-bottom: 37px;
+}
+.category_btn_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.category_btn {
+  padding: 17px 34px;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+}
+.category_btn:nth-child(2) {
+  padding: 17px 49px;
+}
+/* ============= category section end here ============== */
 
 /* ============= section start here ============== */
 /* ============= section end here ============== */
