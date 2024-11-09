@@ -399,6 +399,19 @@ nav {
   line-height: 24px;
   font-size: 12px;
 }
+.feature_btn_wrapper{
+  text-align: center;
+  margin-top: -20px;
+}
+.feature_btn{
+  padding: 20px 40px;
+  background-color: #3C50E0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
 /* ============= feature section end here ============== */
 
 /* ============= section start here ============== */
