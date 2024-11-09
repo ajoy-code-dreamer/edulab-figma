@@ -63,6 +63,7 @@ div {
 img {
   vertical-align: middle;
   width: 100%;
+  height: 100%;
 }
 .container {
   max-width: 1170px;
@@ -92,6 +93,19 @@ body {
 .common_btn:hover {
   background-color: var(--common-btn-clr);
   border-color: var(--common-btn-clr);
+}
+.common_section_heading {
+  color: var(--primary-text-clr);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+}
+.common_section_sub_heading {
+  color: var(--secondary-text-clr);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -0.66px;
 }
 /* ============= common css end here ================ */
 
@@ -220,13 +234,15 @@ nav {
   display: flex;
   column-gap: 33px;
 }
-.service_icon {
+.service_icon,
+.career_icon {
   width: 60px;
   height: 60px;
   flex-shrink: 0;
   overflow: hidden;
 }
-.service_icon_inner {
+.service_icon_inner,
+.career_icon_inner {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -242,14 +258,16 @@ nav {
   line-height: 60px;
   font-size: 16px;
 }
-.service_item_heading {
+.service_item_heading,
+.career_item_heading {
   color: var(--primary-text-clr);
   font-size: 20px;
   font-weight: bold;
   line-height: normal;
   margin-bottom: 27px;
 }
-.service_item_details {
+.service_item_details,
+.career_item_details {
   color: var(--secondary-text-clr);
   font-size: 16px;
   font-weight: 400;
@@ -308,7 +326,7 @@ nav {
   height: 531px;
   background-color: #ebf3ff;
 }
-.feature_item_wrapper{
+.feature_item_wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between !important;
@@ -324,11 +342,11 @@ nav {
   box-shadow: 0px 22px 44px 0px rgba(149, 149, 149, 0.16);
   padding: 21px 26px 29px;
 }
-.feature_item:nth-child(2) .lesson_number{
-  color: #2BD67B;
+.feature_item:nth-child(2) .lesson_number {
+  color: #2bd67b;
 }
-.feature_item:nth-child(3) .lesson_number{
-  color: #F7B26D;
+.feature_item:nth-child(3) .lesson_number {
+  color: #f7b26d;
 }
 .feature_item_image {
   height: 200px;
@@ -399,13 +417,13 @@ nav {
   line-height: 24px;
   font-size: 12px;
 }
-.feature_btn_wrapper{
+.feature_btn_wrapper {
   text-align: center;
   margin-top: -20px;
 }
-.feature_btn{
+.feature_btn {
   padding: 20px 40px;
-  background-color: #3C50E0;
+  background-color: #3c50e0;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -414,8 +432,75 @@ nav {
 }
 /* ============= feature section end here ============== */
 
-/* ============= section start here ============== */
-/* ============= section end here ============== */
+/* ============= career section start here ============== */
+#career {
+  padding: 80px 0;
+}
+.career_content_wrapper {
+  display: flex;
+  gap: 125px;
+  align-items: center;
+}
+.career_image_part {
+  width: 423px;
+  height: 663px;
+  border-radius: 18px;
+  border: 2px solid #f7b26d;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  object-fit: cover;
+  object-position: center;
+}
+.career_image_part picture{
+  position: relative;
+  top: 30px;
+  right: 30px;
+  
+}
+.career_image_part picture img{
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+.career_details_wrapper .common_section_heading{
+  max-width: 572px;
+  margin-bottom: 24px;
+}
+.career_details_wrapper .common_section_sub_heading{
+  max-width: 482px;
+  margin-bottom: 24px;
+  margin-bottom: 59px;
+}
+.career_details_item_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  margin-bottom: 55px;
+}
+.career_details_item{
+  display: flex;
+  gap: 22px;
+}
+.career_item_heading{
+  margin-bottom: 21px;
+}
+.career_item_details{
+  width: 340px;
+}
+.career_btn{
+  background-color: #3C50E0;
+  width: 20px 47px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+/* ============= career section end here ============== */
 
 /* ============= section start here ============== */
 /* ============= section end here ============== */
