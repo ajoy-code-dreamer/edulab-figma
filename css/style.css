@@ -622,6 +622,7 @@ nav {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   cursor: pointer;
+  position: relative;
 }
 .library_content_wrapper {
   padding: 24px 32px 32px;
@@ -725,6 +726,36 @@ nav {
 .library_item:hover .library_item_btn {
   color: var(--white-clr);
   background-color: var(--common-btn-clr);
+}
+.library_star{
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background-color: var(--white-clr);
+  text-align: center;
+  line-height: 48px;
+  color: #3C50E0;
+  font-size: 22px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.library_btn_wrapper{
+  text-align: center;
+  margin-top: 80px;
+}
+.library_btn{
+  padding: 17px 38px;
+  background-color: #3C50E0;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
 }
 /* ============= library section end here ============== */
 
