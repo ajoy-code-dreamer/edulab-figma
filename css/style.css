@@ -1108,12 +1108,18 @@ nav {
   line-height: 50px;
 }
 .join_us_btn {
+  background-color: var(--common-btn-clr);
+  border-color: var(--common-btn-clr);
   padding: 20px 25px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+}
+.join_us_btn:hover{
+  background-color: var(--transparent-clr);
+  border-color: var(--white-clr);
 }
 /* ============= join_us section end here ============== */
 
