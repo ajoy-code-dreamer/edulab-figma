@@ -1064,6 +1064,7 @@ nav {
 /* ============= branding section start here ============== */
 #branding{
   padding: 82px 0;
+  margin-bottom: 186px;
 }
 .branding_item_wrapper{
   display: flex;
@@ -1080,8 +1081,40 @@ nav {
 }
 /* ============= branding section end here ============== */
 
-/* ============= section start here ============== */
-/* ============= section end here ============== */
+/* ============= join_us section start here ============== */
+.join_us_box_wrapper{
+  position: relative;
+}
+.join_us_wrapper{
+  padding: 73px 65px;
+  background-color: #416FF4;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.join_us_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.join_us_heading{
+  width: 515px;
+  color: var(--white-clr);
+font-size: 34px;
+font-weight: 700;
+line-height: 50px;
+}
+.join_us_btn{
+  padding: 20px 25px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+/* ============= join_us section end here ============== */
 
 /* ============= section start here ============== */
 /* ============= section end here ============== */
