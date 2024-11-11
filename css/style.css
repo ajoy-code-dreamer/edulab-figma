@@ -1061,5 +1061,27 @@ nav {
 }
 /* ============= experts section end here ============== */
 
+/* ============= branding section start here ============== */
+#branding{
+  padding: 82px 0;
+}
+.branding_item_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.branding_item{
+  max-width: 160px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+/* ============= branding section end here ============== */
+
+/* ============= section start here ============== */
+/* ============= section end here ============== */
+
 /* ============= section start here ============== */
 /* ============= section end here ============== */
