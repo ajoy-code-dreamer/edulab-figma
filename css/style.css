@@ -901,18 +901,17 @@ nav {
   -o-transform: translateX(-50%);
   z-index: -2;
 }
-#testimonials .common_section_heading_summary {
+#testimonials .common_section_heading_summary,
+#experts .common_section_heading_summary {
   margin-bottom: 12px;
 }
-#testimonials .common_section_heading {
+#testimonials .common_section_heading,
+#experts .common_section_heading {
   width: 320px;
   margin-bottom: 28px;
 }
-#testimonials .common_section_heading {
-  width: 320px;
-  margin-bottom: 28px;
-}
-#testimonials .common_section_sub_heading {
+#testimonials .common_section_sub_heading,
+#experts .common_section_sub_heading {
   width: 470px;
   color: var(--primary-text-clr);
   font-size: 20px;
@@ -920,7 +919,8 @@ nav {
   line-height: 32px;
   margin-bottom: 18px;
 }
-#testimonials .testimonial_details {
+#testimonials .testimonial_details,
+#experts .experts_details {
   width: 470px;
   color: #333;
   font-size: 16px;
@@ -930,8 +930,136 @@ nav {
 
 /* ============= testimonials section end here ============== */
 
-/* ============= section start here ============== */
-/* ============= section end here ============== */
+/* ============= experts section start here ============== */
+#experts {
+  padding: 152px 0;
+}
+.experts_section_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px;
+}
+.experts_item_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.experts_item_inner_wrapper {
+  width: 570px;
+  border-radius: 8px;
+  background-color: #ebf3ff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.experts_item_icon {
+  font-size: 32px;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  line-height: 112px;
+  text-align: center;
+  color: #3c50e0;
+  background-color: var(--white-clr);
+  flex-shrink: 0;
+}
+.experts_item_heading {
+  color: var(--primary-text-clr);
+  font-size: 28px;
+  font-weight: var(--medium-weight);
+  line-height: 32px;
+  margin-bottom: 8px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.experts_item_details {
+  width: 310px;
+  color: var(--primary-text-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: 32px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.experts_item_inner_wrapper:hover{
+  background-color: #3C50E0;
+  color: var(--white-clr);
+}
+.experts_item_inner_wrapper:hover .experts_item_heading{
+  color: var(--white-clr);
+}
+.experts_item_inner_wrapper:hover .experts_item_details{
+  color: var(--white-clr);
+}
+.experts_shape_wrapper{
+  position: relative;
+}
+.experts_shape_wrapper img{
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+.experts_shape_wrapper img:nth-child(1){
+  width: 158px;
+  height: 52px;
+  position: absolute;
+  top: -622px;
+  right: 70px;
+  z-index: -1;
+}
+.experts_shape_wrapper img:nth-child(2){
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  top: -480px;
+  right: -19px;
+}
+.experts_shape_wrapper img:nth-child(3){
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: -380px;
+  left: -18px;
+}
+.experts_shape_wrapper img:nth-child(4){
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: -215px;
+  right: 116px;
+}
+.experts_shape_wrapper img:nth-child(5){
+  width: 188px;
+  height: 116px;
+  position: absolute;
+  top: -116px;
+  left: -32px;
+  z-index: -1;
+}
+/* ============= experts section end here ============== */
 
 /* ============= section start here ============== */
 /* ============= section end here ============== */
